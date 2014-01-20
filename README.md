@@ -51,4 +51,14 @@ Fired when the connection is ready to recieve commands.
 
 Fried when the server dumps it's status at you.
 
+#### `route(output[, input], callback)`
 
+`route` takes up to 3 arguments, the first the destination output, the second optional, the input to route the output to and the last argument a callback with the status.
+
+#### `outputLabel([[output,] label,] callback)`
+
+`outputLabel` gets all output labels, or one output label specified or sets the specified output label.
+
+#### `inputLabel([[input,] label,] callback)`
+
+`inputLabel` gets all input labesl, or one input label spcecified or sets the specified input label.
